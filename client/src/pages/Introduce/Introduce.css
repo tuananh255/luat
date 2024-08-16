@@ -1,0 +1,325 @@
+.c100 {
+  width: 100% !important;
+  border: 2px solid #48d1cc !important;
+}
+.col-item:nth-child(1),
+.col-item:nth-child(3) {
+  transform: translateY(-100px);
+}
+.text-bvvvv {
+}
+.text-clamp-intro {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: max-content;
+  -webkit-box-orient: vertical;
+  line-height: 1.2em;
+}
+
+.hover-container {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px); /* Start position */
+}
+
+.hover-item:hover .hover-container {
+  opacity: 1;
+  transform: translateY(0); /* End position */
+}
+
+.hover-item {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.groupop .h1,
+.groupop .h2 {
+  display: none !important;
+}
+.groupop:hover .h2 {
+  display: block !important;
+
+  animation: slideDown 0.5s forwards;
+}
+
+.groupop:hover .h1 {
+  display: block !important;
+
+  animation: slideUp 0.5s forwards;
+}
+
+@media (max-width: 767px) {
+  .introo {
+    align-items: flex-start !important;
+  }
+  .text-bvvvv {
+    width: 340px !important;
+    font-size: 32px !important;
+  }
+  .descbv {
+    font-size: 16px !important;
+  }
+  .introContainer {
+    margin-top: 50px;
+    padding: 0px !important;
+  }
+  .introooo {
+    padding-top: 50px !important;
+  }
+  .text-intro {
+    line-height: 50px !important;
+    font-size: 32px !important;
+    text-align: center !important;
+  }
+  .desc-intro {
+    width: 100% !important;
+    font-size: 16px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .fix-gap {
+    gap: 3px !important;
+  }
+  .asdda {
+    padding: 20px !important;
+  }
+  .dvnoibat {
+    padding: 50px 0px !important;
+  }
+  .text-nbb {
+    font-size: 22px !important;
+  }
+  .des-nb {
+    font-size: 32px !important;
+  }
+  .img-nb-mobile {
+    padding-top: 40px !important;
+  }
+  .h-img-nb {
+    height: 230px !important;
+  }
+  .dn-us {
+    padding-top: 20px !important;
+  }
+  .mbnbn .zxc {
+    margin-top: 430px;
+  }
+  .text-dn-mobile {
+    font-size: 31px !important;
+    padding: 0 20px !important;
+  }
+
+  .grid-mobile {
+    display: grid !important ;
+    margin-top: 0px !important;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .texcs {
+    text-align: center !important;
+  }
+  .asdmmf {
+    padding-bottom: 30px !important;
+  }
+  .gtkb {
+    flex-direction: column;
+    padding: 0 !important;
+    --bs-gutter-x: 0rem !important;
+  }
+  .gtkb-contaner {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .col-item:nth-child(1),
+  .col-item:nth-child(3) {
+    transform: translateY(0px) !important;
+  }
+  .text-gtkb {
+    line-height: 40px !important;
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center !important;
+    font-size: 32px !important;
+  }
+  .img-rec {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+  }
+  .desc-gtkb {
+    text-align: justify;
+  }
+  .asd {
+    width: 100% !important;
+  }
+  .flex100 {
+    width: 100% !important;
+  }
+  .sdasd {
+    width: 100% !important;
+  }
+  .hoes {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .c100 {
+    width: 100% !important;
+    border: 2px solid #48d1cc !important;
+  }
+  .ttcontainer {
+    display: flex !important;
+    padding-top: 30px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+  .text-bv {
+    width: 400px !important;
+  }
+
+  .ttnd {
+    margin-top: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    padding: 50px 9px !important;
+  }
+  .text-adasd {
+    text-align: center !important;
+  }
+  .img-in {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .h2 {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .h11 {
+    top: 70px !important;
+    width: 49px !important;
+    height: 49px !important;
+    left: 120px !important;
+  }
+  .h12 {
+    top: 90px !important;
+    left: 10px !important;
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .h13 {
+    width: 40px !important;
+    height: 40px !important;
+    top: 30px !important;
+  }
+  .h1text {
+    top: 150px !important;
+    left: 0px !important;
+  }
+  .w-ab {
+    width: 186px !important;
+    bottom: 43px !important;
+    left: 5px !important;
+  }
+  .w-ab2 {
+    width: 186px !important;
+    top: 50px !important;
+    right: 20px !important;
+  }
+  .w-ab3 {
+    width: 186px !important;
+    top: 0px !important;
+    right: 19px !important;
+  }
+  .w-ab4 {
+    width: 186px !important;
+    top: 360px !important;
+    right: 19px !important;
+  }
+  .h2text {
+    top: 200px !important;
+    left: 0px !important;
+  }
+  .h3text {
+    bottom: -10px !important;
+    left: 12px !important;
+  }
+  .grid-mobile {
+    --bs-gutter-x: 0rem !important;
+  }
+
+  .ttdf {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding-bottom: 20px !important;
+  }
+  .wmove {
+    width: 100% !important;
+    height: 400px !important;
+  }
+  .move {
+    right: 0 !important;
+    bottom: -380px !important;
+    width: 100% !important;
+  }
+
+  .gk {
+    flex-direction: column;
+    --bs-gutter-x: 0 !important;
+    padding: 0 !important;
+    margin-top: 100px !important;
+  }
+  .resevfle {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .adasd {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .text-gk {
+    margin-top: 30px;
+    width: 100% !important;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 32px !important;
+  }
+  .des-gk {
+    text-align: justify !important;
+  }
+  .buttnsd {
+    justify-content: center !important;
+  }
+  .axc {
+    padding-top: 70px !important ;
+  }
+}

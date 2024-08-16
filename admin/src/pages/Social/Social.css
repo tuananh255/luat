@@ -1,0 +1,6 @@
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    background-color: #1cb0ad !important;
+}
+:where(.css-dev-only-do-not-override-d2lrxs).ant-switch.ant-switch-checked {
+    background: #1cb0ad !important;
+}

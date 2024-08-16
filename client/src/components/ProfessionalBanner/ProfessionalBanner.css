@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+  .frocess-container {
+  }
+  .profess-text {
+    font-size: 26px !important;
+  }
+  .icon-apl {
+    right: -150px !important;
+    line-height: 0px !important;
+  }
+  .frocess-container .py123 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 12px !important;
+  }
+}

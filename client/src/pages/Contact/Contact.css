@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+  .contactsasd {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 0px !important;
+  }
+  .ctcc {
+    padding: 0px !important;
+    flex-direction: column;
+  }
+  .mld {
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .text-asdccc {
+    padding-right: 0px !important;
+  }
+  .img-div img {
+    width: 375px !important;
+    height: 250px !important;
+    object-fit: cover;
+  }
+  .text-contcat{
+    text-align: center;
+  }
+  .formboder {
+    border-top-right-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .pbm{
+    padding-bottom: 0px !important;
+  }
+  .imgmon {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 15px !important;
+  }
+  .asddform {
+    width: 370px !important;
+  }
+  .ttextform {
+    margin-top: 20px;
+  }
+  .p1 {
+    padding: 40px 0px !important;
+  }
+  .fomtcontact {
+    display: flex;
+    flex-direction: column;
+    padding: 0px !important;
+    margin-top: 80px;
+  }
+  .buttoncontact {
+    display: flex;
+    justify-content: center !important;
+    margin-bottom: 70px;
+  }
+  .cmkdd {
+    margin-top: 70px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0px !important;
+  }
+  .textck {
+    text-align: center;
+  }
+  .mapflex{
+    flex-direction: column ;
+  }
+}

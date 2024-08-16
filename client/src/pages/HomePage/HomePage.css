@@ -1,0 +1,218 @@
+.text-clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines */
+  -webkit-box-orient: vertical;
+  max-height: calc(1.2em * 3); /* Approx height for 3 lines */
+  line-height: 1.2em;
+}
+
+.slick-slide {
+  margin: 0 13px !important; /* Điều chỉnh giá trị để thay đổi khoảng cách */
+}
+.img-talk .slick-slide {
+  margin: 0px !important;
+}
+.slick-track {
+  display: flex !important;
+  gap: 20px !important; /* Điều chỉnh khoảng cách giữa các slide */
+}
+.img-talk .slick-track {
+  gap: 0px !important;
+}
+.iframe-containe video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.iframe-containe {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.img-talk {
+  border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .pad-mobile {
+    padding: 30px !important;
+  }
+  .apl-con {
+    left: 0 !important;
+    top: 30% !important;
+    transform: translate(0, 0) !important;
+  }
+  .text-apl {
+    font-size: 50px !important;
+    color: "white" !important;
+  }
+  .desc-apl {
+    font-size: 23px !important;
+  }
+  .slick-prev {
+    display: none !important;
+  }
+  .slick-next {
+    display: none !important;
+  }
+  .about-mobile {
+    left: 8% !important;
+    bottom: -300px !important;
+    width: 84% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .text-about {
+    width: 300px !important;
+  }
+  .about-us-text {
+    font-size: 30px !important;
+  }
+  .serviceus {
+    font-size: 32px !important;
+  }
+  .icon-service {
+    display: none !important;
+  }
+  .slick-mobile {
+    padding-left: 20px !important;
+    width: 410px !important;
+  }
+  .texxds .row {
+    --bs-gutter-x: 0rem !important;
+  }
+  .noibat-mobile {
+    flex-direction: column !important;
+    bottom: -650px !important;
+    /* top: 300px !important; */
+  }
+  .text-nb {
+    padding: 0 20px !important;
+    width: 100% !important;
+  }
+  .talk {
+    width: 100% !important;
+  }
+  .mt-hp {
+    padding-top: 50px;
+  }
+  .homep .talkabout {
+    margin-top: 750px !important;
+    padding: 0 20px !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .text-talk {
+    width: 100% !important;
+    font-size: 38px !important;
+    text-align: center;
+    line-height: 42px !important;
+  }
+  .pls {
+    padding: 20px !important;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 0px !important;
+  }
+
+  .img-talk {
+    height: 550px;
+    width: 100% !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    overflow: hidden;
+  }
+  .img-talk .slick-slider.slick-initialized {
+    height: 100%;
+  }
+  .img-talk .slick-list {
+    height: 100%;
+  }
+  .img-talk .slick-list .slick-track {
+    height: 100%;
+  }
+  .slick-slide.slick-active.slick-current {
+    height: 100%;
+  }
+
+  .img-talk .slick-slide.slick-active.slick-current div:first-child {
+    height: 100%;
+  }
+  .img-talk .imgsdsd1 {
+    height: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  .imgss {
+    height: 100%;
+    object-fit: cover;
+  }
+  .new {
+    /* padding: 0 20px !important; */
+  }
+  .new-text {
+    font-size: 30px !important;
+  }
+  .des-new {
+    width: 100% !important;
+  }
+  .zxc {
+    padding-top: 40px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .news {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .baovecontainer {
+    padding: 0 !important;
+    padding-bottom: 50px !important;
+    height: max-content !important;
+  }
+  .asd {
+    height: max-content !important;
+  }
+  .baove {
+    padding: 20px !important;
+    height: max-content !important;
+  }
+  .text-bv {
+    font-size: 32px !important;
+  }
+  .descbv {
+    width: 100% !important;
+  }
+  .iframe-containe {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  .imgsdsd1 {
+    height: 100% !important;
+    border-top-left-radius: 0px;
+  }
+  .iframe-containe video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .flex-col-mpbile {
+    flex-direction: column !important;
+  }
+}

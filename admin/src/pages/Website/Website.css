@@ -1,0 +1,19 @@
+:where(.css-dev-only-do-not-override-d2lrxs).ant-tabs-top >.ant-tabs-nav .ant-tabs-ink-bar, :where(.css-dev-only-do-not-override-d2lrxs).ant-tabs-bottom >.ant-tabs-nav .ant-tabs-ink-bar, :where(.css-dev-only-do-not-override-d2lrxs).ant-tabs-top >div>.ant-tabs-nav .ant-tabs-ink-bar, :where(.css-dev-only-do-not-override-d2lrxs).ant-tabs-bottom >div>.ant-tabs-nav .ant-tabs-ink-bar {
+    height: 4px !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+:where(.css-dev-only-do-not-override-d2lrxs).ant-tabs .ant-tabs-ink-bar {
+    background: #40e0d0 !important;
+}
+:where(.css-dev-only-do-not-override-d2lrxs).ant-tabs .ant-tabs-tab:hover {
+    color: #40e0d0 !important;
+}
+:where(.css-dev-only-do-not-override-d2lrxs).ant-tabs .ant-tabs-tab-btn {
+    font-weight: 500 !important;
+}
+/* text */
+:where(.css-dev-only-do-not-override-d2lrxs).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #40e0d0 !important;
+    font-weight: 500;
+}

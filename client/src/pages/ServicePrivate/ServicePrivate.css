@@ -1,0 +1,29 @@
+.mucluc-none {
+  display: none !important;
+}
+.mucluc-none2 {
+  display: block !important;
+}
+@media (max-width: 767px) {
+  .spcontainer {
+    padding-top: 5px !important;
+    gap: 8px !important;
+    padding-bottom: 0px !important;
+  }
+  .mucluc-none {
+    display: block !important;
+  }
+  .mucluc-text {
+    margin-bottom: 5px !important;
+  }
+  .mucluc-none2 {
+    display: none !important;
+  }
+  .sprive {
+    padding: 0 20px !important;
+  }
+  .sp-imgss {
+    height: inherit !important;
+    object-fit: cover;
+  }
+}

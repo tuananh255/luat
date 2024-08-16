@@ -1,0 +1,43 @@
+.hoverScale {
+  /* Initial state */
+  transition: transform 0.3s ease-in-out;
+}
+.homp-arrow {
+  visibility: hidden;
+  /* display: none !important; */
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  width: "40px";
+  height: "40px";
+  background-color: "silver";
+  border-radius: "50%";
+}
+.hoverScale:hover {
+  transform: scale(1.07);
+}
+.hoverScale:hover .homp-arrow {
+  visibility: visible;
+  /* display: block !important; */
+  display: "flex !important";
+  align-items: "center !important";
+  justify-content: "center !important";
+  width: "40px !important";
+  height: "40px !important";
+  background: "red !important";
+  border-radius: "50% !important";
+}
+.homp-arrow:hover {
+  width: "40px";
+  height: "40px";
+  background: "red";
+  border-radius: "50%";
+}
+@media (max-width: 767px) {
+  .introContainer {
+    padding: 0 20px !important;
+  }
+  .slickcontainer {
+    width: 320px !important;
+  }
+}

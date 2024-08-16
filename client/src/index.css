@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-left {
+  animation: slideInFromLeft 1.3s ease-out forwards;
+}
+
+.animate-slide-right {
+  animation: slideInFromRight 1.3s ease-out forwards;
+}
+
+.animate-slide-top {
+  animation: slideInFromTop 1.3s ease-out forwards;
+}
+
+.animate-slide-bottom {
+  animation: slideInFromBottom 1.3s ease-out forwards;
+}
+.pad100 {
+  padding: 0 100px;
+}
+.text-24 {
+  font-size: 24px !important;
+}
+.text-28 {
+  font-size: 28px !important;
+}
+.text-40 {
+  font-size: 40px !important;
+}
+.text-48 {
+  font-size: 48px !important;
+}
+.text-56 {
+  font-size: 56px !important;
+}
+.w-1114 {
+  width: 1114px !important;
+  margin: 0 auto;
+}
+/* .w-1240 {
+  width: 1240px !important;
+  margin: 0 auto;
+} */
+.w-1440 {
+  width: 1240px !important;
+  margin: 0 auto;
+}
+.w-1263-header {
+  width: 1263px !important;
+  margin: 0 auto;
+}
+/* index.css */
+.loading-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 9999999999999;
+}
+
+.loading {
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .w-350 {
+    width: 375px !important;
+    margin: 0 auto;
+  }
+  .text-32 {
+    font-size: 32px !important;
+  }
+  .text-28m {
+    font-size: 28px;
+  }
+  .text-16 {
+    font-size: 16px !important;
+  }
+  .text-24m {
+    font-size: 24px !important;
+  }
+  .text-40 {
+    font-size: 40px !important;
+  }
+  .text-20 {
+    font-size: 20px !important;
+  }
+  .text-28 {
+    font-size: 28px !important;
+  }
+  .text-14 {
+    font-size: 14px !important;
+  }
+}

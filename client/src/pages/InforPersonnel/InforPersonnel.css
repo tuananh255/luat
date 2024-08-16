@@ -1,0 +1,110 @@
+.abcss {
+  position: relative;
+  padding-left: 20px; /* Add space for the vertical line */
+}
+
+.abcss::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 180px;
+  top: 0;
+  /* bottom: 0; */
+  left: -32px;
+  background-color: #ccc;
+}
+
+.abcss2 {
+  position: relative;
+  padding-left: 20px;
+}
+
+.abcss2::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 180px;
+  top: 35px;
+  /* bottom: 0; */
+  left: -32px;
+  background-color: #ccc;
+}
+
+.abcss3 {
+  position: relative;
+  padding-left: 20px;
+}
+
+.abcss3::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 180px;
+  top: 35px;
+  /* bottom: 0; */
+  left: -32px;
+  background-color: #ccc;
+}
+
+.abcss4 {
+  position: relative;
+  padding-left: 20px;
+}
+
+/* .abcss4::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 180px;
+  top: 35px;
+  left: -32px;
+  background-color: #ccc;
+} */
+@media (max-width: 767px) {
+  .inf4c {
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .inf4ccc {
+    padding: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .abcss::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 230px;
+    top: 0;
+    /* bottom: 0; */
+    left: -32px;
+    background-color: #ccc;
+  }
+  .abcss3::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 290px;
+    top: 35px;
+    /* bottom: 0; */
+    left: -32px;
+    background-color: #ccc;
+  }
+  .abcss2::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 290px;
+    top: 35px;
+    /* bottom: 0; */
+    left: -32px;
+    background-color: #ccc;
+  }
+  .flexhoc {
+    flex-direction: column !important;
+    display: flex;
+    align-items: start !important;
+    justify-content: start !important;
+  }
+}

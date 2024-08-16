@@ -1,0 +1,15 @@
+.icon{
+    width: 24px;
+    height: 24px;
+}
+.border_li{
+    position: relative;
+}
+.border_li::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    right: 0;
+    height: 100vh;
+    background-color: #F2F4F7;
+}

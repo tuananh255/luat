@@ -1,0 +1,16 @@
+/* Breadcrumb.css */
+.breadcrumb {
+  --bs-breadcrumb-divider: ">"; /* Đây là cách thay đổi dấu phân cách của breadcrumb */
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(
+    --bs-breadcrumb-divider
+  ); /* Sử dụng biến CSS để xác định dấu phân cách */
+}
+
+@media (max-width: 767px) {
+  /* .pd-bread {
+    padding: 0 20px !important;
+  } */
+}

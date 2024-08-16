@@ -1,0 +1,66 @@
+.dv-ct {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .dv-ct {
+    display: block !important;
+    padding-bottom: 20px;
+  }
+  .text-talk {
+    font-size: 32px !important;
+  }
+  .buttonse{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gttn .text-gtkb {
+    margin-top: 50px !important;
+  }
+  .gttn .talkabout {
+    margin-top: 50px !important;
+    padding: 0 !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .gttn .serviceus {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .gttn .desc-ser{
+    text-align: center;
+  }
+  .gttn .text-intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .gttn .gtkb {
+    padding: 0 !important;
+  }
+  .gttn .gtkb2 {
+    display: none !important;
+  }
+  .gttn .frocess-container {
+    transform: translateX(-75px);
+  }
+  .gttn .asdmnd {
+    padding-top: 10px !important;
+  }
+  .gttn .amndk {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .serv {
+    display: flex !important;
+    width: 100% !important;
+    margin-right: 0px !important ;
+    flex-direction: column !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

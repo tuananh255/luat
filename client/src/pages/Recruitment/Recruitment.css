@@ -1,0 +1,146 @@
+.text-clamp-recrui {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  line-height: 1.2em;
+}
+
+.text-fix {
+  width: calc(100% / 1.5);
+}
+.td .slick-slider.slick-initialized {
+  display: flex;
+  justify-content: center;
+}
+.td .slick-list {
+  width: 1100px;
+}
+.td .slick-track{
+  margin-bottom: 50px;
+}
+.hover-containerre {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px); /* Start position */
+}
+
+.hover-item:hover .hover-containerre {
+  opacity: 1;
+  transform: translateY(0); /* End position */
+}
+
+.hover-item {
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .mobile-re {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .outw {
+    padding: 25px 0px 0px 0px !important;
+  }
+  .des-recrui {
+    padding-top: 35px;
+  }
+  .td .frocess-container {
+    transform: translateX(-75px);
+  }
+  .td .gnqd {
+    display: flex !important;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .td .ax {
+    padding: 0px !important;
+  }
+  .gap-recu {
+    gap: 15px !important;
+  }
+  .dvcls {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .td .gncenter {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .td .dvcls {
+    padding: 10px 0px 30px 0px !important;
+  }
+  .td .text-gk,
+  .td .desc-gn,
+  .td .descs-gn {
+    text-align: center !important;
+  }
+  .td .why {
+    display: flex !important;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 50px;
+  }
+  .desc-why {
+    text-align: center;
+  }
+  .td .text-mobile {
+    text-align: center;
+  }
+  .td .why-col {
+    width: 100% !important;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .td .items-why {
+    width: 370px !important;
+    /* height: 200px !important; */
+  }
+  .td .formasd {
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 70px !important;
+  }
+  .td .dsdss {
+    padding: 50px 0px !important;
+    width: 375px;
+  }
+  .td .form-c {
+    padding: 0px 20px !important;
+  }
+  .td .ab-top {
+    top: 230px;
+  }
+  .td .text-p,
+  .td .des-das {
+    padding: 0px 20px !important;
+  }
+  .td .teas-form {
+    width: 375px;
+    height: max-content;
+  }
+  .td .asds1 {
+    padding: 0px !important;
+    margin-top: 500px;
+  }
+  .td .tcs {
+    height: max-content;
+  }
+  .td .tcs {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .td .tcss2 {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+  }
+  .td .tccssmax {
+    width: 100% !important;
+  }
+}
